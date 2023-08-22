@@ -1,22 +1,22 @@
-body {
+body #container-home {
     display: grid;
     height: 100vh;
     grid-template-areas:
         "header"
         "main"
         "footer";
-    grid-template-rows: 150px 1fr 100px;
+    /* grid-template-rows: 150px 1fr 100px; */
     overflow-y: scroll;
     overflow-x: hidden;
 }
 
-#container-home {
+#container-home{
     background-image: url(../img/Background.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-main {
+main .container-main {
     grid-area: main;
     display: flex;
 }
@@ -29,8 +29,8 @@ header {
     width: 100%;
 }
 
-footer {
+ footer {
     grid-area: footer;
     display: flex;
-    background-color: var(--dark-green-color);
-}
+    flex-direction: column;
+} 

@@ -1,0 +1,63 @@
+.container-main {
+    gap: 300px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#slogam {
+    margin: 57px 0 0 101px;
+    display: flex;
+    width: 574px;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.inicio-slogam, .fim-slogam {
+    font-size: 50px;
+    font-weight: 900;
+    text-transform: uppercase;
+    line-height: 65px;
+    color: #F7F7F7;
+}
+
+#nome-proliseum {
+    margin: 20px 0 20px 0;
+    font-size: 110px;
+    font-family: 'Cyberjunkies', sans-serif;
+    text-shadow: 0.1em 0.05em #FF3130;
+    color: #F7F7F7;
+}
+
+.fim-slogam{
+    font-size: 30px;
+    line-height: 36px;
+}
+
+#participe{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 435px;
+    width: 500px;
+margin-top: 57px;
+}
+
+.botao-inscricao{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 75px;
+    width: 411px;
+    height: 94px;
+    background: #FF3130;
+    margin: 12px 30px 0px 0px;
+}
+
+.botao-inscricao h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #F7F7F7;
+}
